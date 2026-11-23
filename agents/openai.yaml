@@ -1,0 +1,12 @@
+interface:
+  display_name: llm council
+  short_description: Запускай LLM Council по явному вызову пользователя. Пять советников
+    независимо разбирают решение, вслепую оценивают аргументы и выдают вердикт с источниками.
+    Поддерживает выбранные файлы и публичные сайты.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
